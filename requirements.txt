@@ -1,0 +1,15 @@
+biopython @ file:///Users/runner/miniforge3/conda-bld/biopython_1720014912120/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1733736026804/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1734904295467/work/dist/numpy-2.2.1-cp312-cp312-macosx_11_0_arm64.whl#sha256=db59a85bf3c4ae6cff04ba4cf7a70f066547c91c14f592eb291ef71ba81f5da8
+pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1726878422361/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1736496824048/work/dist/scikit_learn-1.6.1-cp312-cp312-macosx_11_0_arm64.whl#sha256=b73b4426f1e03a197903eddede31a62b6859e1eb5d298b145d003d742720c9f7
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1736351819767/work/dist/scipy-1.15.0-cp312-cp312-macosx_11_0_arm64.whl#sha256=073562fec8c5aba27fbbb060efef7cbd039c0c5ea33e65214d07f80e8571e016
+setuptools==75.8.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1714400101435/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1735661334605/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1733235305708/work
+wheel==0.45.1
