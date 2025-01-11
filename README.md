@@ -6,19 +6,16 @@ This project processes genomic data from bacterial and archaeal organisms retrie
 ## Setup Instructions
 
 ### 1. Create a Conda Environment
-Create a new Conda environment named `genom_classify` with Python 3.12:
 ```bash
 conda create -n genom_classify python=3.12 -y
 ```
 
 ### 2. Activate the Environment
-Activate the environment:
 ```bash
 conda activate genom_classify
 ```
 
 ### 3. Install Dependencies
-Install the required dependencies listed in the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
