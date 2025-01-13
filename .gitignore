@@ -5,3 +5,4 @@ df_organisms_selection.pkl
 models
 test_genes
 grid_search_results.csv
+outputs
