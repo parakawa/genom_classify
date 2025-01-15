@@ -69,7 +69,7 @@ def evaluate_and_save_model(df, chunk_size, k, rf_params, overlap, model_dir, te
     return {
         "chunk_size": chunk_size,
         "k": k,
-        "test_accuracy": test_accuracy,
+        "accuracy": test_accuracy,
         "cv_mean_accuracy": cv_mean_accuracy,
         "cv_std_accuracy": cv_std_accuracy
     }

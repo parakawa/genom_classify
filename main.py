@@ -7,10 +7,10 @@ print("loading data...")
 # load the data
 df = load_dataframe("df_organisms_selection.pkl")
 
-chunk_sizes = [500, 1000, 1500, 2000, 2500, 3000, 3500, 4000]
-ks = [2, 3, 4, 5, 6, 7, 8]
-# chunk_sizes = [500, 1000, 1500]
-# ks = [2, 3, 4]
+#chunk_sizes = [500, 1000, 1500, 2000, 2500, 3000, 3500, 4000]
+#ks = [2, 3, 4, 5, 6, 7, 8]
+chunk_sizes = [500, 1000, 1500]
+ks = [2, 3, 4]
 
 rf_params = {
     "n_estimators": 100,       # 100 estimators
@@ -23,7 +23,7 @@ rf_params = {
 
 # create directories to save the results
 os.makedirs("models", exist_ok=True)
-os.makedirs("test_genes", exist_ok=True)
+os.makedirs("test_gene", exist_ok=True)
 
 # train the models for all parameter combinations
 results = []
@@ -34,9 +34,9 @@ for chunk_size in chunk_sizes:
             chunk_size,
             k,
             rf_params,
-            overlap=0,
+            overlap=100,
             model_dir="models",
-            test_gene_dir="test_genes"
+            test_gene_dir="test_gene"
         )
         results.append(metrics)
 
